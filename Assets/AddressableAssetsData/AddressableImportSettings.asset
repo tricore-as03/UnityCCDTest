@@ -13,5 +13,27 @@ MonoBehaviour:
   m_Name: AddressableImportSettings
   m_EditorClassIdentifier: 
   rulesEnabled: 1
-  allowGroupCreation: 0
-  rules: []
+  allowGroupCreation: 1
+  rules:
+  - path: Assets/AddressableAssets/PlayOnDownloadAssets/*/*
+    matchType: 0
+    groupName: ${PATH[2]}_${PATH[3]}
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 1
+    labelRefs:
+    - m_LabelString: PlayOnDownloadAssets
+    dynamicLabels: []
+    LabelMode: 1
+    simplified: 0
+    addressReplacement: 
+  - path: Assets/AddressableAssets/ManualDownloadAssets/*/*
+    matchType: 0
+    groupName: ${PATH[2]}_${PATH[3]}
+    groupTemplate: {fileID: 0}
+    groupTemplateApplicationMode: 1
+    labelRefs:
+    - m_LabelString: ManualDownloadAssets
+    dynamicLabels: []
+    LabelMode: 1
+    simplified: 0
+    addressReplacement: 

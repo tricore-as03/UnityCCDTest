@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 260b3fecf91f35549bee41b4149f8be3
+  m_DefaultGroup: a7287eb9f254a6f4db57aa1e1db8c0a1
   m_CachedHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -34,15 +34,18 @@ MonoBehaviour:
   m_MonoScriptBundleNaming: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: 3b8ac3f091162da46a00ef9876a10fa0
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: 1ffeb1fd216a58c40b09c0ef10d9ff95
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 3d464d299d9818346b1bab9b0e8359fc, type: 2}
-  - {fileID: 11400000, guid: 82a8b1e9df44ac44aba7ab1d51365afb, type: 2}
+  - {fileID: 11400000, guid: 3ce2323e8e232a94d84b6fc8895a9002, type: 2}
+  - {fileID: 11400000, guid: c64d25373d2a5f6438d6c99f01253024, type: 2}
+  - {fileID: 11400000, guid: 89170f60755d7e844b1b66faaacbe892, type: 2}
+  - {fileID: 11400000, guid: 4d53ed878e16dd141884a607d817f439, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -84,6 +87,8 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - PlayOnDownloadAssets
+    - ManualDownloadAssets
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 83ee2860a1c57774e8318b0df5579938, type: 2}
