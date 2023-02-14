@@ -25,3 +25,17 @@ MonoBehaviour:
       m_Value: ServerData/[BuildTarget]
     - m_Suffix: LoadPath
       m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+  - m_GroupTypePrefix: CCD.52eafa6e-79e0-440f-bd22-f4eda35ddd4a.8942a71c-7ebe-4a79-9094-4ba73f9e976a.latest
+    m_Variables:
+    - m_Suffix: CcdBucketName
+      m_Value: iOS
+    - m_Suffix: CcdBucketId
+      m_Value: 8942a71c-7ebe-4a79-9094-4ba73f9e976a
+    - m_Suffix: CcdBadgeName
+      m_Value: latest
+    - m_Suffix: PromoteOnly
+      m_Value: True
+    - m_Suffix: BuildPath
+      m_Value: CCDBuildData/8942a71c-7ebe-4a79-9094-4ba73f9e976a/latest
+    - m_Suffix: LoadPath
+      m_Value: https://52eafa6e-79e0-440f-bd22-f4eda35ddd4a.client-api.unity3dusercontent.com/client_api/v1/buckets/8942a71c-7ebe-4a79-9094-4ba73f9e976a/release_by_badge/latest/entry_by_path/content/?path=

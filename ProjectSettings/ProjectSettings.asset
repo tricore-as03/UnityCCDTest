@@ -791,11 +791,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 52eafa6e-79e0-440f-bd22-f4eda35ddd4a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: CCDTest
+  organizationId: tricore-as03
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
