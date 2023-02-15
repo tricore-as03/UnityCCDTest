@@ -74,43 +74,43 @@ public class CCDEditorWindow : EditorWindow
 
         // CLI (Old)
 
-        //var commands = new string[]
-        //{
-        //    $"auth login {apiKey}",
-        //    $"config set environment {DevelopmentEnvId} --project={ProjectId}",
-        //    $"config set bucket {DevelopmentAndroidBucketId}",
-        //    $"entries sync {AssetBundleRootPath}/{BuildTarget.Android}",
-        //    $"releases create",
-        //    $"auth logout {apiKey}",
-        //}
-        //.ToUniTaskAsyncEnumerable();
-        //
-        //var processStartInfo = new ProcessStartInfo(Ucd);
-        //processStartInfo.UseShellExecute = false;
-        //processStartInfo.RedirectStandardOutput = true;
-        //processStartInfo.RedirectStandardError = true;
-        //processStartInfo.RedirectStandardInput = false;
-        //processStartInfo.CreateNoWindow = true;
-        //
-        //await foreach (var command in commands)
-        //{
-        //    processStartInfo.Arguments = command;
-        //
-        //    using (var process = new Process())
-        //    {
-        //        process.StartInfo = processStartInfo;
-        //        process.OutputDataReceived += OnReceiveUcdData;
-        //        process.ErrorDataReceived += OnReceiveUcdError;
-        //
-        //        process.Start();
-        //        process.BeginOutputReadLine();
-        //
-        //        await UniTask.WaitUntil(() => process.HasExited);
-        //
-        //        process.OutputDataReceived -= OnReceiveUcdData;
-        //        process.ErrorDataReceived -= OnReceiveUcdError;
-        //    }
-        //}
+        var commands = new string[]
+        {
+            $"auth login {apiKey}",
+            $"config set environment {DevelopmentEnvId} --project={ProjectId}",
+            $"config set bucket {DevelopmentAndroidBucketId}",
+            $"entries sync {AssetBundleRootPath}/{BuildTarget.StandaloneWindows64}",
+            $"releases create",
+            $"auth logout {apiKey}",
+        }
+        .ToUniTaskAsyncEnumerable();
+        
+        var processStartInfo = new ProcessStartInfo(Ucd);
+        processStartInfo.UseShellExecute = false;
+        processStartInfo.RedirectStandardOutput = true;
+        processStartInfo.RedirectStandardError = true;
+        processStartInfo.RedirectStandardInput = false;
+        processStartInfo.CreateNoWindow = true;
+        
+        await foreach (var command in commands)
+        {
+            processStartInfo.Arguments = command;
+        
+            using (var process = new Process())
+            {
+                process.StartInfo = processStartInfo;
+                process.OutputDataReceived += OnReceiveUcdData;
+                process.ErrorDataReceived += OnReceiveUcdError;
+        
+                process.Start();
+                process.BeginOutputReadLine();
+        
+                await UniTask.WaitUntil(() => process.HasExited);
+        
+                process.OutputDataReceived -= OnReceiveUcdData;
+                process.ErrorDataReceived -= OnReceiveUcdError;
+            }
+        }
 
         // ‘ÎÛ‚ÌEnvironment‚ğƒZƒbƒg
 

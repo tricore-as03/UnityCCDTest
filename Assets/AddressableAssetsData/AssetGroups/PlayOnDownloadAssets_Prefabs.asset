@@ -15,20 +15,15 @@ MonoBehaviour:
   m_GroupName: PlayOnDownloadAssets_Prefabs
   m_Data:
     m_SerializedData: []
-  m_GUID: a7287eb9f254a6f4db57aa1e1db8c0a1
+  m_GUID: 035f63883a37042479891088cffdd20e
   m_SerializeEntries:
   - m_GUID: bec3d8a281d42bf449ba1da39dc37eb7
-    m_Address: BlueCharacter
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - PlayOnDownloadAssets
-  - m_GUID: 8f4068310e025b742a07cad8bc20f2e0
-    m_Address: Prefabs
+    m_Address: Assets/AddressableAssets/PlayOnDownloadAssets/Prefabs/Characters/BlueCharacter.prefab
     m_ReadOnly: 0
     m_SerializedLabels:
     - PlayOnDownloadAssets
   - m_GUID: ea6ae7c8c124abd4b84d20f1d68861ef
-    m_Address: Characters
+    m_Address: Assets/AddressableAssets/PlayOnDownloadAssets/Prefabs/Characters
     m_ReadOnly: 0
     m_SerializedLabels:
     - PlayOnDownloadAssets

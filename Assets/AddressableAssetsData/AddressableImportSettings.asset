@@ -18,7 +18,7 @@ MonoBehaviour:
   - path: Assets/AddressableAssets/PlayOnDownloadAssets/*/*
     matchType: 0
     groupName: ${PATH[2]}_${PATH[3]}
-    groupTemplate: {fileID: 0}
+    groupTemplate: {fileID: 11400000, guid: 83ee2860a1c57774e8318b0df5579938, type: 2}
     groupTemplateApplicationMode: 1
     labelRefs:
     - m_LabelString: PlayOnDownloadAssets
@@ -29,7 +29,7 @@ MonoBehaviour:
   - path: Assets/AddressableAssets/ManualDownloadAssets/*/*
     matchType: 0
     groupName: ${PATH[2]}_${PATH[3]}
-    groupTemplate: {fileID: 0}
+    groupTemplate: {fileID: 11400000, guid: 83ee2860a1c57774e8318b0df5579938, type: 2}
     groupTemplateApplicationMode: 1
     labelRefs:
     - m_LabelString: ManualDownloadAssets

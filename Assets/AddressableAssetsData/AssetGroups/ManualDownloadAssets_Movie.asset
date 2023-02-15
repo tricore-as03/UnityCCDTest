@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: ManualDownloadAssets_Movie
   m_Data:
     m_SerializedData: []
-  m_GUID: b33081050fcaf824298e9d91d35c7af4
+  m_GUID: 1c85a07c5df6ac942b9d9ff6abbdc5e7
   m_SerializeEntries:
   - m_GUID: a9a6fc87b70c8ff45b0b37cc44d4b3d9
     m_Address: Assets/AddressableAssets/ManualDownloadAssets/Movie/Polyhedron01_720.mp4

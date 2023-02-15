@@ -34,6 +34,9 @@ public class AssetDownloader : MonoBehaviour
             await downloadDependencies.Task;
         }
 
-        var material = await assetReference.LoadAssetAsync<Material>();
+        var result = await Addressables.LoadResourceLocationsAsync("PlayOnDownloadAssets");
+        await Addressables.InstantiateAsync(result.First());
+
+        //var material = await assetReference.LoadAssetAsync<Material>();
     }
 }

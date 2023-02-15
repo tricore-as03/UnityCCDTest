@@ -10,21 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: PlayOnDownloadAssets_Scenes
+  m_Name: Default Local Group
   m_EditorClassIdentifier: 
-  m_GroupName: PlayOnDownloadAssets_Scenes
+  m_GroupName: Default Local Group
   m_Data:
     m_SerializedData: []
-  m_GUID: c07b919a145ae3c47baef745992c2953
-  m_SerializeEntries:
-  - m_GUID: 4bdc3779c6542734195861ad7f1a29d6
-    m_Address: Assets/AddressableAssets/PlayOnDownloadAssets/Scenes/HomeScene.unity
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - PlayOnDownloadAssets
+  m_GUID: 73797b675eb8f86489332844c6379655
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: cb9a45bb24792d44bacf46130f4d7eb4, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 95d1328789bc47d4bb2aa25d58d2c692, type: 2}
-    - {fileID: 11400000, guid: 76bb653a3a70fb44ca80da38e9880989, type: 2}
+    - {fileID: 11400000, guid: b285b401a7b13b54cb8da6e4f24fbbe5, type: 2}
+    - {fileID: 11400000, guid: 77c7773fc107dd34abaccceba8d0ae33, type: 2}

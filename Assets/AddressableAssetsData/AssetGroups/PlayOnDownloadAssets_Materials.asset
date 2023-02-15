@@ -15,23 +15,18 @@ MonoBehaviour:
   m_GroupName: PlayOnDownloadAssets_Materials
   m_Data:
     m_SerializedData: []
-  m_GUID: 6f658c165ce45f14eadaafbe2705fa58
+  m_GUID: a96b4f78c265e41429952c1a1eaf5b60
   m_SerializeEntries:
   - m_GUID: 6d6047df07997ee4792a095d9ed09992
-    m_Address: CharacterMat
+    m_Address: Assets/AddressableAssets/PlayOnDownloadAssets/Materials/Characters/CharacterMat.mat
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PlayOnDownload
+    - PlayOnDownloadAssets
   - m_GUID: 09545fbf07030164f8d5fdfe12812dc6
-    m_Address: Characters
+    m_Address: Assets/AddressableAssets/PlayOnDownloadAssets/Materials/Characters
     m_ReadOnly: 0
     m_SerializedLabels:
-    - PlayOnDownload
-  - m_GUID: fcda0bed92b2b4445bb47ed08fb4ded2
-    m_Address: Materials
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - PlayOnDownload
+    - PlayOnDownloadAssets
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: cb9a45bb24792d44bacf46130f4d7eb4, type: 2}
   m_SchemaSet:
