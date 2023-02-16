@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 73797b675eb8f86489332844c6379655
+  m_DefaultGroup: 434fb7ebb7c011d4283e1b138da82e5e
   m_CachedHash:
     serializedVersion: 2
-    Hash: 00000000000000000000000000000000
+    Hash: ef5e394c4bfa4bf81d0a34edf08713e0
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 1
+  m_BuildRemoteCatalog: 0
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -32,17 +32,26 @@ MonoBehaviour:
   m_ShaderBundleNaming: 0
   m_ShaderBundleCustomNaming: 
   m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_BuildAndReleaseBinFileOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
     m_Id: 3b8ac3f091162da46a00ef9876a10fa0
   m_RemoteCatalogLoadPath:
     m_Id: 1ffeb1fd216a58c40b09c0ef10d9ff95
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 3d464d299d9818346b1bab9b0e8359fc, type: 2}
   - {fileID: 11400000, guid: 7210a2a4985fddd4caea0f8963e0ea19, type: 2}
+  - {fileID: 11400000, guid: 7ee6c40ba77a66e4280dffe4902639a8, type: 2}
+  - {fileID: 11400000, guid: fdaf9d5b78206194fa659af94585dc6c, type: 2}
+  - {fileID: 11400000, guid: 0e839f5e72b544243b97128a341ee329, type: 2}
+  - {fileID: 11400000, guid: 7d399fd9ceeb0c740a5b1ff4af2530d0, type: 2}
+  - {fileID: 11400000, guid: 45dd5cca32250fc4c8960a9cfea0be2c, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -57,71 +66,19 @@ MonoBehaviour:
       - m_Id: dadd7f9442c61da4fade92cf60c473fb
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 3b8ac3f091162da46a00ef9876a10fa0
-        m_Value: CCDBuildData/a5920374-8b0e-49fd-9670-332786ad4807/latest
+        m_Value: CCDBuildData/ManagedEnvironment/ManagedBucket/ManagedBadge
       - m_Id: 1ffeb1fd216a58c40b09c0ef10d9ff95
-        m_Value: https://52eafa6e-79e0-440f-bd22-f4eda35ddd4a.client-api.unity3dusercontent.com/client_api/v1/buckets/a5920374-8b0e-49fd-9670-332786ad4807/release_by_badge/latest/entry_by_path/content/?path=
-      - m_Id: abf64789e7b2b0f45985e8d247f4d6b4
-        m_Value: 52eafa6e-79e0-440f-bd22-f4eda35ddd4a
-      - m_Id: 7ca1ca0e3e275bd4391c057af723c565
-        m_Value: xxx
-      - m_Id: 2eb2a5c7ea2a2914fbbc7675ce6379af
-        m_Value: xxx
-      - m_Id: 6b94def0ae1fd1e4390c3d52ff1908ae
-        m_Value: latest
+        m_Value: https://52eafa6e-79e0-440f-bd22-f4eda35ddd4a.client-api.unity3dusercontent.com/client_api/v1/environments/{CcdManager.EnvironmentName}/buckets/{CcdManager.BucketId}/release_by_badge/{CcdManager.Badge}/entry_by_path/content/?path=
     - m_InheritedParent: 
-      m_Id: 4008bfd574c78d746833fa82f63ca905
-      m_ProfileName: Develop_Windows
+      m_Id: b0134c410ceea674bb9d3823e82a7a2d
+      m_ProfileName: Development
       m_Values:
       - m_Id: dadd7f9442c61da4fade92cf60c473fb
         m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
       - m_Id: 3b8ac3f091162da46a00ef9876a10fa0
-        m_Value: CCDBuildData/[BucketId]/latest
+        m_Value: CCDBuildData/ManagedEnvironment/ManagedBucket/ManagedBadge
       - m_Id: 1ffeb1fd216a58c40b09c0ef10d9ff95
-        m_Value: https://52eafa6e-79e0-440f-bd22-f4eda35ddd4a.client-api.unity3dusercontent.com/client_api/v1/environments/production/buckets/0139f094-9687-459a-891d-440231880fab/release_by_badge/latest/entry_by_path/content/?path=
-      - m_Id: abf64789e7b2b0f45985e8d247f4d6b4
-        m_Value: 52eafa6e-79e0-440f-bd22-f4eda35ddd4a
-      - m_Id: 7ca1ca0e3e275bd4391c057af723c565
-        m_Value: development
-      - m_Id: 2eb2a5c7ea2a2914fbbc7675ce6379af
-        m_Value: 40460b82-68e3-4b3e-a49a-20bce06d32b5
-      - m_Id: 6b94def0ae1fd1e4390c3d52ff1908ae
-        m_Value: latest
-    - m_InheritedParent: 
-      m_Id: 5f1fc594b6358b74fa350fbde3ddc765
-      m_ProfileName: Product_Windows
-      m_Values:
-      - m_Id: dadd7f9442c61da4fade92cf60c473fb
-        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
-      - m_Id: 3b8ac3f091162da46a00ef9876a10fa0
-        m_Value: CCDBuildData/[BucketId]/latest
-      - m_Id: 1ffeb1fd216a58c40b09c0ef10d9ff95
-        m_Value: https://[ProjectId].client-api.unity3dusercontent.com/client_api/v1/buckets/[BucketId]/release_by_badge/[BadgeName]/entry_by_path/content/?path=
-      - m_Id: abf64789e7b2b0f45985e8d247f4d6b4
-        m_Value: 52eafa6e-79e0-440f-bd22-f4eda35ddd4a
-      - m_Id: 7ca1ca0e3e275bd4391c057af723c565
-        m_Value: production
-      - m_Id: 2eb2a5c7ea2a2914fbbc7675ce6379af
-        m_Value: 138671d5-2f1a-47f2-af24-9f12209ec355
-      - m_Id: 6b94def0ae1fd1e4390c3d52ff1908ae
-        m_Value: latest
-    - m_InheritedParent: 
-      m_Id: 54465c3e7638d7e449249c72dbd90af7
-      m_ProfileName: New Profile
-      m_Values:
-      - m_Id: dadd7f9442c61da4fade92cf60c473fb
-        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
-      - m_Id: 3b8ac3f091162da46a00ef9876a10fa0
-        m_Value: CCDBuildData/0139f094-9687-459a-891d-440231880fab/latest
-      - m_Id: 1ffeb1fd216a58c40b09c0ef10d9ff95
-        m_Value: https://52eafa6e-79e0-440f-bd22-f4eda35ddd4a.client-api.unity3dusercontent.com/client_api/v1/buckets/0139f094-9687-459a-891d-440231880fab/release_by_badge/latest/entry_by_path/content/?path=
-      - m_Id: abf64789e7b2b0f45985e8d247f4d6b4
-        m_Value: 52eafa6e-79e0-440f-bd22-f4eda35ddd4a
-      - m_Id: 7ca1ca0e3e275bd4391c057af723c565
-        m_Value: xxx
-      - m_Id: 2eb2a5c7ea2a2914fbbc7675ce6379af
-        m_Value: xxx
-      - m_Id: 6b94def0ae1fd1e4390c3d52ff1908ae
-        m_Value: latest
+        m_Value: https://52eafa6e-79e0-440f-bd22-f4eda35ddd4a.client-api.unity3dusercontent.com/client_api/v1/environments/{CcdManager.EnvironmentName}/buckets/{CcdManager.BucketId}/release_by_badge/{CcdManager.Badge}/entry_by_path/content/?path=
     m_ProfileEntryNames:
     - m_Id: dadd7f9442c61da4fade92cf60c473fb
       m_Name: BuildTarget
@@ -131,18 +88,6 @@ MonoBehaviour:
       m_InlineUsage: 0
     - m_Id: 1ffeb1fd216a58c40b09c0ef10d9ff95
       m_Name: Remote.LoadPath
-      m_InlineUsage: 0
-    - m_Id: abf64789e7b2b0f45985e8d247f4d6b4
-      m_Name: ProjectId
-      m_InlineUsage: 0
-    - m_Id: 7ca1ca0e3e275bd4391c057af723c565
-      m_Name: EnvironmentName
-      m_InlineUsage: 0
-    - m_Id: 2eb2a5c7ea2a2914fbbc7675ce6379af
-      m_Name: BucketId
-      m_InlineUsage: 0
-    - m_Id: 6b94def0ae1fd1e4390c3d52ff1908ae
-      m_Name: BadgeName
       m_InlineUsage: 0
     m_ProfileVersion: 1
   m_LabelTable:
@@ -163,9 +108,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f89eba8b486aecd4193f0c918f039031, type: 2}
   - {fileID: 11400000, guid: 3c278f502b9da694a8f8720c2653c15b, type: 2}
   - {fileID: 11400000, guid: f84fdabbabe00174a93fc07cf460cc19, type: 2}
-  m_ActiveProfileId: ce3eb43309bf6134aaad3e1045f20d52
+  m_ActiveProfileId: b0134c410ceea674bb9d3823e82a7a2d
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
     m_RegisteredServiceTypeRefs: []
+  m_CcdManagedData:
+    EnvironmentId: 14e5d2ca-37dc-47cd-9178-849d275f6dca
+    EnvironmentName: development
+    BucketId: 87107a12-6b4d-4924-a8d5-6ffa795bb0a9
+    Badge: latest
+    State: 1

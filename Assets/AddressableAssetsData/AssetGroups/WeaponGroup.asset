@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: WeaponGroup
+  m_EditorClassIdentifier: 
+  m_GroupName: WeaponGroup
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1eb81c43657fa3949aac1c6e980ca2a9
+  m_SerializeEntries:
+  - m_GUID: 04376c913e706b04fa100b88aeee4142
+    m_Address: Assets/AddressablesAssets/Weapons/Materials
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayOnDownloadAssets
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 437944ccd27518240b43a7b935b168b1
+    m_Address: Assets/AddressablesAssets/Weapons
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayOnDownloadAssets
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9847f88b40ce3974b8a80701ffe447a2
+    m_Address: Assets/AddressablesAssets/Weapons/Prefabs/Weapon1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayOnDownloadAssets
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a762ba78374862347bea83a0efac5751
+    m_Address: Assets/AddressablesAssets/Weapons/Materials/Material1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - PlayOnDownloadAssets
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cb9a45bb24792d44bacf46130f4d7eb4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c9506ddd8194a2d4abd97223cae248c6, type: 2}
+    - {fileID: 11400000, guid: 05a887719c68cca43a7706769d88defa, type: 2}

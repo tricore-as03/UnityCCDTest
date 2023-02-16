@@ -9,6 +9,7 @@ using Cysharp.Threading.Tasks;
 using Cysharp.Threading.Tasks.Linq;
 using UnityEditor.AddressableAssets.Settings;
 using Unity.Services.Core;
+using Unity.Services.Core.Environments;
 
 public class CCDEditorWindow : EditorWindow
 {
@@ -31,8 +32,7 @@ public class CCDEditorWindow : EditorWindow
     [MenuItem("Editor/CCD Editor")]
     private static void Create()
     {
-        // ê∂ê¨
-        GetWindow<CCDEditorWindow>("CCD Editor");
+        
     }
 
     private void OnGUI()

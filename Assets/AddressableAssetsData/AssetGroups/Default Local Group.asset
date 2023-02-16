@@ -15,13 +15,8 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_Data:
     m_SerializedData: []
-  m_GUID: 73797b675eb8f86489332844c6379655
-  m_SerializeEntries:
-  - m_GUID: c6628939e5575a045ad276aa8849e963
-    m_Address: Assets/AddressableAssets
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - PlayOnDownloadAssets
+  m_GUID: 434fb7ebb7c011d4283e1b138da82e5e
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: cb9a45bb24792d44bacf46130f4d7eb4, type: 2}
   m_SchemaSet:

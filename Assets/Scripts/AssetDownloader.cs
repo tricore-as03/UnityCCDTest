@@ -2,6 +2,8 @@ using Cysharp.Threading.Tasks;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Services.Core;
+using Unity.Services.Core.Environments;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 
@@ -24,19 +26,16 @@ public class AssetDownloader : MonoBehaviour
         // ダウンロードサイズを取得
         var getDownloadSizeHandle = Addressables.GetDownloadSizeAsync("PlayOnDownloadAssets");
         await getDownloadSizeHandle.Task;
-
+        
         // ダウンロードが必要だったらダウンロード
-        if (getDownloadSizeHandle.Result > 0)
-        {
+        //if (getDownloadSizeHandle.Result > 0)
+        //{
             // ダウンロード
-            // 内部的にはLoadAssetAsyncしてReleaseしてるだけ
-            var downloadDependencies = Addressables.DownloadDependenciesAsync("PlayOnDownloadAssets");
-            await downloadDependencies.Task;
-        }
+        //await downloadDependencies.Task;
+        //}
 
-        var result = await Addressables.LoadResourceLocationsAsync("PlayOnDownloadAssets");
-        await Addressables.InstantiateAsync(result.First());
-
-        //var material = await assetReference.LoadAssetAsync<Material>();
+        await Addressables.DownloadDependenciesAsync("PlayOnDownloadAssets");
+        await assetReference.LoadAssetAsync<GameObject>();
+        await assetReference.InstantiateAsync();
     }
 }

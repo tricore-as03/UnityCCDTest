@@ -1,0 +1,33 @@
+@startuml 
+skin rose
+
+frame "開始時にダウンロードするアセット" {
+
+frame "Character Group" as CHG {
+
+folder Characters
+folder Prefabs as CPrefabs
+Characters -- CPrefabs
+
+}
+
+frame "Common Group" as COG {
+
+folder Commons
+folder Icons
+Commons -- Icons
+}
+
+}
+
+frame "Movie Group" as MOG {
+
+folder Movies
+note bottom of [Movies] {
+    ・Title.mp4
+    ・Tutorial.mp4
+}
+
+}
+
+@enduml

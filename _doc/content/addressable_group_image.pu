@@ -1,0 +1,66 @@
+@startuml 
+skin rose
+
+folder "AddressablesAssets (Root)" as Root
+
+frame "Scene Group" {
+
+folder Scenes
+Root -- Scenes
+note bottom of [Scenes] {
+    ・BootScene.unity
+    ・TitleScene.unity
+    ・HomeScene.unity
+}
+
+}
+
+frame "Common Group" {
+
+folder Commons
+folder Icons
+Root -- Commons
+Commons -- Icons
+note bottom of [Icons] {
+    ・Image1.jpg
+    ・Image2.png
+    ・Image3.png
+}
+}
+
+frame "Character Group" {
+
+folder Characters
+folder Prefabs as CPrefabs
+note bottom of [CPrefabs] {
+    ・Character1.prefab
+    ・Character2.prefab
+    ・Character3.prefab
+}
+Root -- Characters
+Characters -- CPrefabs
+
+}
+
+frame "Weapon Group" {
+
+folder Weapons
+folder Prefabs as WPrefabs
+folder Materials
+Root -- Weapons
+Weapons -- WPrefabs
+Weapons -- Materials
+note bottom of [WPrefabs] {
+    ・Weapon1.prefab
+    ・Weapon2.prefab
+    ・Weapon3.prefab
+}
+note bottom of [Materials] {
+    ・Material1.mat
+    ・Material2.mat
+    ・Material3.mat
+}
+
+}
+
+@enduml
